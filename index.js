@@ -20,7 +20,6 @@ function submitData(username, useremail){
         alert("PROBLEM");
         body.innerHTML+= (error.message);
     });
-
 };
 
 document.addEventListener("change", e => e.preventDefault())
